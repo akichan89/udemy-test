@@ -4,7 +4,7 @@ const Breadcrumb = () => {
   return (
     <section className="page-banner-section">
       <div className="container">
-        <h1>List Style</h1>
+        <h1>FAQ</h1>
         <span>12 Posts</span>
       </div>
     </section>

@@ -4,8 +4,9 @@ import Breadcrumb from "../parts/Breadcrumb";
 import Posts from "../parts/Posts";
 import Sidebar from "../parts/Sidebar";
 import Footer from "../parts/Footer";
+import App  from "./storeApp";
 
-const Category = () => {
+const Shop = () => {
   return (
     <>
       <Header />
@@ -13,8 +14,8 @@ const Category = () => {
       <section className="blog-section">
         <div className="container">
           <div className="row">
-            <Posts />
-            
+            <App />
+        
           </div>
         </div>
       </section>
@@ -24,4 +25,4 @@ const Category = () => {
   );
 };
 
-export default Category;
+export default Shop;

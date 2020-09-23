@@ -8,7 +8,7 @@ const Header = () => {
         <div className="container">
           <div className="inner-logo-place">
             <a className="navbar-brand" href="index.html">
-              COMPLETE BLOG
+              Dragon Pals
             </a>
           </div>
         </div>

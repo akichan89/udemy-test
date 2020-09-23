@@ -18,25 +18,27 @@ const Navbar = () => {
         </button>
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <a className="search-button" href="#">
-            <i className="fa fa-search"></i>
-          </a>
-          <form className="form-search">
-            <input type="search" placeholder="Search:" />
-          </form>
+        
           <ul className="navbar-nav m-auto">
             <li>
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/category">All Posts</Link>
+              <Link to="/category">FAQ</Link>
             </li>
             <li>
-              <Link to="/single">Category Name 1</Link>
+              <Link to="/pizzaForm">Order Request Form</Link>
             </li>
             <li>
-              <Link to="/single">Category Name 2</Link>
+              <Link to="/single">About Dragon Pals</Link>
             </li>
+            <li>
+              <Link to="/shop">Accessories</Link>
+            </li>
+            <li>
+              <Link to="/gallery">Dragon Gallery</Link>
+            </li>
+            
           </ul>
 
           <ul className="navbar-nav ml-auto social-list">

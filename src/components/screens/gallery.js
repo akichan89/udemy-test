@@ -5,11 +5,11 @@ import Posts from "../parts/Posts";
 import Sidebar from "../parts/Sidebar";
 import Footer from "../parts/Footer";
 
-const Category = () => {
+const Gallery = () => {
   return (
     <>
       <Header />
-     
+      
       <section className="blog-section">
         <div className="container">
           <div className="row">
@@ -24,4 +24,4 @@ const Category = () => {
   );
 };
 
-export default Category;
+export default Gallery;
